@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cake Types - Cake Canvas</title>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('menu-1.webp'); /* Faint pastel background */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #5D3A6A;
+      margin-top: 30px;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 12px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .cake-card {
+      width: 270px;
+      background-color: #fff0fc;
+      border: 2px solid #e0ccec;
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(93, 58, 106, 0.1);
+    }
+
+    .cake-card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+
+    .cake-card h3 {
+      color: #5D3A6A;
+      margin-bottom: 10px;
+    }
+
+    details summary {
+      cursor: pointer;
+      background-color: #b07ac3;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+      margin-bottom: 10px;
+    }
+
+    details summary:hover {
+      background-color: #a267b2;
+    }
+
+    details ul {
+      text-align: left;
+      padding-left: 20px;
+      color: #4a2f5c;
+      margin-top: 10px;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .order-btn{
+      display:inline-block;
+      margin-top:12px;
+      padding:8px 18px;
+      background:#5D3A6A;
+      color:#fff;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      transition:.25s;
+     }
+   .order-btn:hover{background:#7b5590;} 
+
+    nav a {
+      color: #5D3A6A;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    marquee {
+      background-color: #5D3A6A;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <marquee>🎂 Explore Our Cake Types and Customize Your Slice of Joy! 🎂</marquee>
+
+  <h1>Our Cake Types</h1>
+
+  <div class="container">
+
+    <!-- Mood Cake -->
+    <div class="cake-card">
+      <img src="menu-2.webp" alt="Mood Cake">
+      <a class="order-btn" href="order-form.html">Place Your Order →</a>
+      <h3>Mood Cake</h3>
+      <details>
+        <summary>💜 View This</summary>
+        <ol>
+          <li><strong>Flavors:</strong>
+           <ul="disc"> Chocolate, Butterscotch, Blueberry </ul></li><br>
+          <li><strong>Types:</strong><ul="disc"> Eggless, Classic, Photo Print </ul></li><br>
+          <li><strong>Themes:</strong><ul="disc"> Rainy Days, Self Love, Breakup</ul></li><br>
+          <li><strong>Add-ons:</strong> <ul="disc">Stickers, Candles, Note Cards </ul></li><br>
+        </ol>
+      </details>
+    </div>
+
+    <!-- Classic Cake -->
+    <div class="cake-card">
+      <img src="menu-4.webp" alt="Classic Cake">
+     <a class="order-btn" href="order-form.html">Place Your Order →</a>
+      <h3>Classic Cake</h3>
+      <details>
+        <summary>💜 View This</summary>
+        <ol>
+          <li><strong>Flavors:</strong><ul="disc"> Chocolate, Vanilla, Strawberry, Black Forest</ul></li><br>
+          <li><strong>Types:</strong><ul="disc"> Egg/Eggless, Round or Square, 1-tier</ul></li><br>
+          <li><strong>Themes:</strong><ul="disc"> Everyday, Casual Celebrations, Just Because</ul></li><br>
+          <li><strong>Add-ons:</strong><ul="disc"> Icing Text, Choco Chips, Fresh Fruit</ul></li><br>
+        </ol>
+      </details>
+    </div>
+
+    <!-- Celebration Cake -->
+    <div class="cake-card">
+      <img src="web-4.jpg" alt="Celebration Cake">
+      <a class="order-btn" href="order-form.html">Place Your Order →</a>
+      <h3>Celebration Cake</h3>
+      <details>
+        <summary>💜 View This</summary>
+        <ol>
+          <li><strong>Flavors:</strong><br><ul="disc"> Red Velvet,<br> Pineapple,<br> Black Forest<br></ul></li><br>
+          <li><strong>Types:</strong> <ul="disc">Number Cake, Layered, Semi-fondant</ul></li><br>
+          <li><strong>Themes:</strong> <ul="disc">Birthday, Anniversary, Graduation</ul></li><br>
+          <li><strong>Add-ons:</strong><ul="disc"> Name Topper, Sparklers, Balloons</ul></li><br>
+        </ol>
+      </details>
+    </div>
+
+    <!-- Theme Cake -->
+    <div class="cake-card">
+      <img src="menu-5.webp" alt="Theme Cake">
+      <a class="order-btn" href="order-form.html">Place Your Order →</a>
+      <h3>Theme Cake</h3>
+      <details>
+        <summary>💜 View This</summary>
+        <ol>
+          <li><strong>Flavors:</strong> <ul="square">Butterscotch,<br> Red Velvet,<br> Blueberry,<br> Mango<br></ul></li><br>
+          <li><strong>Types:</strong> <ul="circle">Cartoon, Movie-based, Hobbies, 3D</ul></li><br>
+          <li><strong>Themes:</strong> <ul="circle">Superheroes, Princesses, Sports, Animals</ul></li><br>
+          <li><strong>Add-ons:</strong><ul="circle"> Figurines, Fondant Work, Custom Messages</ul></li><br>
+        </ol>
+      </details>
+    </div>
+
+  </div>
+
+  <nav>
+    <a href="web1.html">← Back to Home</a> |
+    <a href="web3.html">→ View Price Menu</a>
+  </nav>
+
+</body>
+</html>
