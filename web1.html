@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cake Canvas</title>
+  <style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3ebfa;
+    color: #333;
+  }
+
+  .hero {
+    position: relative;
+    width:100%;
+    height:300px;
+    overflow:hidden;
+  }
+  .banner-img {
+    width:100%;
+    height:100%
+    object-fit:cover;
+    display:block;
+    }
+  .overlay-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(93,58,106,0.6);
+    padding: 20px 40px;
+    color:white;
+    border-radius: 12px;
+    text-align: center;
+    } 
+  .hero .overlay {
+    background-color: rgba(93, 58, 106, 0.6);
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom:0;
+  }
+
+  .tagline {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top:10px;
+  }
+
+  section.intro {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  marquee {
+    background: #5D3A6A;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  nav {
+    text-align: center;
+    margin: 20px;
+  }
+
+  nav a {
+    color: #5D3A6A;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <img src="cake-web.jpg" alt="cake banner" class="banner-img">
+    <div class="overlay-text">
+    <h1>Cake Canvas</h1>
+    <p class="tagline">Where Baking Meets Art</p>
+    </div> 
+  </header>
+
+  <section class="intro">
+    <h2>Our Story</h2>
+    <p>
+      Cake Canvas began as a passion project in a tiny sunlit kitchen, where frosting was our paint and cakes were our canvas. 
+      Founded by a girl who believed emotions taste better when baked, we mix creativity with every spoon of batter.
+    </p>
+    <p>
+      What started as weekend experiments turned into a brand that tells stories in every slice. 
+      From heartbreaks to birthdays, rainy evenings to sunny smiles—there’s a cake for every feeling!
+    </p>
+    <p>
+      We believe cake isn’t just dessert — it’s comfort, celebration, healing, and art.
+      At Cake Canvas, we don’t just bake … we express.
+    </p>
+  </section>
+
+  <marquee class="marquee">✨ Order Now & Add Art to Your Plate ✨</marquee>
+
+  <nav>
+    <a href="web2.html">→ View Our Cakes</a> |
+    <a href="web3.html">→ View Price Menu</a>
+  </nav>
+</body>
+</html>
+

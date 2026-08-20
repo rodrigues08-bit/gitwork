@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+  <title>Place Your Order – Cake Canvas</title>
+
+  <style>
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#f6ecfa;
+      color:#333;
+      margin:0;
+      padding:0;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
+    }
+    .form-box{
+      background:#fff;
+      padding:30px 40px;
+      border:2px solid #d9b8e9;
+      border-radius:16px;
+      box-shadow:0 4px 12px rgba(93,58,106,.12);
+      width:90%;
+      max-width:420px;
+    }
+    h1{
+      text-align:center;
+      color:#5D3A6A;
+      margin-bottom:20px;
+    }
+    label{display:block;margin:12px 0 4px;font-weight:600;color:#5D3A6A}
+    input,select,textarea{
+      width:100%;
+      padding:10px 12px;
+      border:1px solid #c9addc;
+      border-radius:8px;
+      font-size:1rem;
+    }
+    textarea{resize:vertical;min-height:80px;}
+    button{
+      display:block;
+      width:100%;
+      margin-top:22px;
+      padding:12px 0;
+      background:#5D3A6A;
+      color:#fff;
+      border:none;
+      border-radius:8px;
+      font-size:1.05rem;
+      font-weight:600;
+      cursor:pointer;
+      transition:.25s;
+    }
+    button:hover{background:#7b5590;}
+    nav{text-align:center;margin-top:20px}
+    nav a{color:#5D3A6A;font-weight:bold;text-decoration:none}
+  </style>
+</head>
+<body>
+
+  <div class="form-box">
+    <h1>Place Your Order</h1>
+
+    <!-- 👉 replace "#" with your server script or Google-Forms link if desired -->
+    <form action="#" method="post">
+      <label for="cake-type">Cake type / design</label>
+      <input id="cake-type" name="cake_type" placeholder="e.g. Mood – Rainy Days">
+
+      <label for="flavor">Flavor</label>
+      <input id="flavor" name="flavor" placeholder="e.g. Blueberry">
+
+      <label for="size">Size</label>
+      <select id="size" name="size">
+        <option value="">Select size</option>
+        <option>500 g</option>
+        <option>1 kg</option>
+        <option>2 kg</option>
+      </select>
+
+      <label for="toppings">Toppings / add-ons</label>
+      <textarea id="toppings" name="toppings" placeholder="e.g. Fresh berries, sparklers, fondant name tag"></textarea>
+
+      <label for="date">Preferred delivery / pickup date</label>
+      <input id="date" name="date" type="date">
+
+      <label for="contact">Your contact number / email</label>
+      <input id="contact" name="contact" placeholder="+91… or you@example.com">
+
+      <button type="submit">Submit Order</button>
+    </form>
+
+    <nav>
+      <a href="web2.html">← Back to Home</a>
+    </nav>
+  </div>
+
+</body>
+</html>
